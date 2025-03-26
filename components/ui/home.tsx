@@ -23,10 +23,10 @@ export function SplineSceneBasic() {
           <p className="-mt-15 mx-auto italic ">
          <WelcomeExample/>
           </p>
-          <div className="mx-auto mt-8">
+          <div className="mx-auto mt-8  ">
          
-<div className="flex items-center gap-4 -ml-10">
-  <div className="social-button">
+<div className="flex items-center gap-4 -ml-10  ">
+  <div className="social-button motion-preset-pop ">
     <a href="https://github.com/krishna7054">
     <button className="relative w-12 h-12 rounded-full group cursor-pointer">
     
@@ -52,7 +52,7 @@ export function SplineSceneBasic() {
     </button>
     </a>
   </div>
-  <div className="social-button">
+  <div className="social-button motion-preset-pop ">
     <a href="https://www.linkedin.com/in/krishna-kumar-rgipt/">
     <button className="relative w-12 h-12 rounded-full group cursor-pointer">
     
@@ -80,7 +80,7 @@ export function SplineSceneBasic() {
     </button>
     </a>
   </div>
-  <div className="social-button">
+  <div className="social-button motion-preset-pop ">
     <a href="https://x.com/Krishna59031477">
     <button className="relative w-12 h-12 rounded-full group cursor-pointer">
     
@@ -106,7 +106,7 @@ export function SplineSceneBasic() {
     </button>
     </a>
   </div>
-  <div className="social-button">
+  <div className="social-button motion-preset-pop ">
     <a href="https://www.instagram.com/krishna.k_4359/">
     <button className="relative w-12 h-12 rounded-full group cursor-pointer">
     

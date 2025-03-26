@@ -11,7 +11,7 @@ interface LetterState {
 }
 
 interface MatrixTextProps {
-    text?: string;
+    text: string;
     className?: string;
     initialDelay?: number;
     letterAnimationDuration?: number;
@@ -19,7 +19,7 @@ interface MatrixTextProps {
 }
 
 export const MatrixText = ({
-    text = "PROJECTs",
+    text,
     className,
     initialDelay = 200,
     letterAnimationDuration = 500,
@@ -110,7 +110,7 @@ export const MatrixText = ({
     return (
         <div
             className={cn(
-                "flex italic  items-center justify-center text-sky-500 underline",
+                "flex italic  items-center justify-center text-teal-400 underline",
                 className
             )}
             aria-label="Matrix text animation"

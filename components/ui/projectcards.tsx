@@ -2,7 +2,7 @@ import { HoverEffect } from "@/components/ui/hover-effect"
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl  mx-auto px-8">
+    <div className="max-w-5xl  mx-auto px-8    ">
       <HoverEffect items={projects} />
     </div>
   );
@@ -14,46 +14,46 @@ export const projects = [
       "This project is a blogging platform that allows users to read and publish blog posts. It features an AI-powered summary generation for blog content using Gemini AI, enhancing user experience by providing quick insights into the articles.",
     link: "https://blog-likho.vercel.app/",
     github: "https://github.com/krishna7054/Blog-Likho",
-    img:"https://drive.google.com/file/d/1xytT0J-rdfnWM1XPlwhKFdW8XJOIJDlX/view?usp=drive_link",
+    imglink:"p1.jpeg",
   },
   {
-    title: "Netflix",
+    title: "Startup-Board",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
-    github: "",
-    img:"",
+      "Start-Up Board is a web application designed to connect startup founders with potential investors. Founders can create and manage their startup profiles, while investors can browse and interact with these profiles. The application is built using Node.js, MongoDB for the backend, and React with Tailwind CSS for the frontend.",
+    link: "https://startup-board-v02.netlify.app/",
+    github: "https://github.com/krishna7054/Startup-Board",
+    imglink:"p2.jpeg",
   },
   {
-    title: "Google",
+    title: "Skill-App",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
-    github: "",
-    img:"",
+      "Skill App is a web application that allows users to register, log in, and manage their skills. It provides functionality for adding and removing skills and displays users and their respective skills.",
+    link: "https://prismatic-brigadeiros-14ae59.netlify.app/",
+    github: "https://github.com/krishna7054/Skill-App",
+    imglink:"p3.jpeg",
   },
   {
-    title: "Meta",
+    title: "Movie Library App",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
-    github: "",
-    img:"",
+      "A movie library web application built with Node.js, Express, React, and Tailwind CSS. This application allows users to sign up, sign in, search for movies using the OMDB API, and create and manage movie lists that can be either public or private.",
+    link: "https://coruscating-churros-aea073.netlify.app/",
+    github: "https://github.com/krishna7054/Movie-Library",
+    imglink:"p4.jpeg",
   },
   {
-    title: "Amazon",
+    title: "Personal Bookshelf",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
-    github: "",
-    img:"",
+      "Personal Bookshelf is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.",
+    link: "https://incredible-tartufo-dc95f5.netlify.app/",
+    github: "https://github.com/krishna7054/Personal-Bookshelf",
+    imglink:"p5.jpeg",
   },
   {
-    title: "Microsoft",
+    title: "Task Management Dashboard",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
-    github: "",
-    img:"",
+      "A web application for managing tasks efficiently using a Kanban board interface. The application allows users to create, update, and delete tasks while offering features such as user authentication, drag-and-drop functionality, and responsive design for various devices.",
+    link: "https://task-ment.netlify.app/",
+    github: "https://github.com/krishna7054/Task-Mangement",
+    imglink:"p6.jpeg",
   },
 ];

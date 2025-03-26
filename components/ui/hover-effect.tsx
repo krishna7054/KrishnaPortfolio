@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
+import { BiLinkExternal } from "react-icons/bi";
 
 export const HoverEffect = ({
   items,
@@ -14,7 +15,7 @@ export const HoverEffect = ({
     description: string;
     link: string;
     github: string;
-    img: string;
+    imglink?: string;
   }[];
   className?: string;
 }) => {
@@ -23,22 +24,21 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-10 gap-6",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-10 gap-8",
         className
       )}
     >
       {items.map((item, idx) => (
-        <Link
-          href={item?.link}
+        <div
           key={item?.link}
-          className="relative group block p-2 h-full w-full"
+          className="relative group block p-2 h-full w-full border border-white rounded-3xl motion-preset-compress  "
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -54,28 +54,38 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             {/* Image */}
+            
             <img
-              src={item.img}
+              src={item.imglink}
               alt={item.title}
-              className="w-full h-48 object-cover rounded-lg"
+              className="w-full h-48 object-cover rounded-lg motion-scale-in-[0.5] motion-translate-x-in-[-120%] motion-translate-y-in-[-60%] motion-opacity-in-[33%] motion-rotate-in-[-1080deg] motion-blur-in-[10px] motion-duration-[1.50s] motion-delay-[0.75s]/scale motion-duration-[0.75s]/opacity motion-duration-[2.40s]/rotate motion-duration-[0.30s]/blur motion-delay-[1.20s]/blur motion-ease-spring-bouncier"
             />
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
 
-            {/* GitHub Link */}
-            <div className="mt-4 flex justify-end">
+            {/* Buttons: Live Demo & GitHub */}
+            <div className="mt-4  flex justify-between motion-preset-pop ">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" text-gray-400 hover:text-white border border-sky-500 animate-pulse p-2 rounded-xl transition-all flex items-center gap-2 mr-2"
+              >
+                <BiLinkExternal className="text-xl" />
+                View Live 
+              </a>
               <a
                 href={item.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-all flex items-center gap-2"
+                className="text-gray-400 hover:text-white border border-white p-2 rounded-xl transition-all flex items-center gap-2"
               >
                 <FaGithub className="text-2xl" />
-                <span>View on GitHub</span>
+                View on GitHub
               </a>
             </div>
           </Card>
-        </Link>
+        </div>
       ))}
     </div>
   );
