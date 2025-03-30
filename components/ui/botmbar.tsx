@@ -46,14 +46,14 @@ import Link from 'next/link';
       icon: (
         <ScrollText className='h-full w-full text-neutral-600 dark:text-neutral-300 cursor-pointer' />
       ),
-      href: '#',
+      href: '/resume',
     },
     {
       title: 'Contact',
       icon: (
         <Mail className='h-full w-full text-neutral-600 dark:text-neutral-300 cursor-pointer' />
       ),
-      href: '#',
+      href: '/contact',
     },
   
   ];

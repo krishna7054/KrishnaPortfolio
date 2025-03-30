@@ -21,8 +21,8 @@ function NavHeader() {
       <Tab setPosition={setPosition} href="/projects">Projects</Tab>
       <Tab setPosition={setPosition} href="/certificates">Certificates</Tab>
       <Tab setPosition={setPosition} href="/skills">Skills</Tab>
-      <Tab setPosition={setPosition} href="">Resume</Tab>
-      <Tab setPosition={setPosition} href="">Contact</Tab>
+      <Tab setPosition={setPosition} href="/resume">Resume</Tab>
+      <Tab setPosition={setPosition} href="/contact">Contact</Tab>
 
       <Cursor position={position} />
     </ul>
