@@ -90,7 +90,7 @@ export default function ContactComponent() {
         <div className="motion-preset-blur-right  ">
           <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
           <p className="text-orange-300 mb-8 text-lg">
-            Have a question or want to work together? Fill out the form and I'll get back to you as soon as possible.
+            Have a question or want to work together? Fill out the form and I&apos;ll get back to you as soon as possible.
           </p>
 
           <div className="space-y-6">

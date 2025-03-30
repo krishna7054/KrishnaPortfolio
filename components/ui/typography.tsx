@@ -14,7 +14,7 @@ function Preview() {
             layout
             transition={{ type: "spring", damping: 30, stiffness: 400 }}
           >
-            Hi, I'm{""}
+            Hi, I&apos;m{" "}
           </motion.span>
           <TextRotate
             texts={[

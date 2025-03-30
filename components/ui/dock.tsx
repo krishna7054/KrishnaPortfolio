@@ -20,6 +20,7 @@ import {
   useState,
 } from 'react';
 import { cn } from '@/lib/utils';
+import React from 'react';
 
 const DOCK_HEIGHT = 128;
 const DEFAULT_MAGNIFICATION = 80;
@@ -159,9 +160,13 @@ function DockItem({ children, className }: DockItemProps) {
       role='button'
       aria-haspopup='true'
     >
-      {Children.map(children, (child) =>
-        cloneElement(child as React.ReactElement<any>, { width, isHovered })
-      )}
+      {Children.map(children, (child) => {
+  if (React.isValidElement<{ width: MotionValue<number>; isHovered: MotionValue<number> }>(child)) {
+    return cloneElement(child, { width, isHovered });
+  }
+  return child;
+})}
+
     </motion.div>
   );
 }
