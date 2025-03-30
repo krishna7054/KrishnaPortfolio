@@ -9,7 +9,6 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Github, Linkedin, Mail, Twitter } from "lucide-react"
-import { span } from "framer-motion/client"
 
 export default function ContactComponent() {
   const [status, setStatus] = useState({

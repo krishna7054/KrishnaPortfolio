@@ -4,7 +4,6 @@ import { SplineScene } from "@/components/ui/splite";
 import { Card } from "@/components/ui/card"
 import { Spotlight } from "@/components/ui/spotlight"
 import { Preview } from "@/components/ui/typography"
-import { StackingNavbarDemo } from "./bar";
 import { WelcomeExample } from "./subhead";
  
 export function SplineSceneBasic() {

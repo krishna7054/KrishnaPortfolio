@@ -1,11 +1,10 @@
 import {
-    Activity,
+    
     ShieldCheck,
     Component,
     HomeIcon,
     Mail,
     ScrollText,
-    SunMoon,
     FolderRoot,
   } from 'lucide-react';
   

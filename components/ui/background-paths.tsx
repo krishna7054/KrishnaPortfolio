@@ -65,11 +65,7 @@ function FloatingPaths({ position }: { position: number }) {
   )
 }
 
-export function BackgroundPaths({
-  title = "Background Paths",
-}: {
-  title?: string
-}) {
+export function BackgroundPaths({ title }: { title?: string }) {
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {

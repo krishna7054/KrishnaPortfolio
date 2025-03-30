@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { usePathname } from "next/navigation";
+
 import Link from "next/link";
 
 function NavHeader() {
@@ -41,7 +41,7 @@ const Tab = ({
   href: string;
 }) => {
   const ref = useRef<HTMLLIElement>(null);
-  const pathname = usePathname(); 
+  
   return (
     <li
       ref={ref}

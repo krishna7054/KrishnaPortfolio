@@ -3,7 +3,6 @@
 import { AppleStyleDock } from "@/components/ui/botmbar";
 import ContactComponent from "@/components/ui/contact";
 import { MatrixText } from "@/components/ui/matrix-text";
-import { footer } from "framer-motion/client";
 
 
 export default function contact(){
