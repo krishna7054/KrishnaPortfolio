@@ -39,7 +39,7 @@ function FloatingPaths({ position }: { position: number }) {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <title>Background Paths</title>
+        
         {paths.map((path, index) => (
           <motion.path
             key={pathIds[index] || path.id}
