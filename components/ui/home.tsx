@@ -17,15 +17,14 @@ export function SplineSceneBasic() {
       <div className="flex h-full ">
         {/* Left content */}
         <div className="flex-1 p-8  relative z-10 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-800">
+          <div className="-mt-20 md:mt-20">
            <Preview/>
-          </h1>
-          <p className="-mt-15 mx-auto italic ">
          <WelcomeExample/>
-          </p>
-          <div className="mx-auto mt-8  ">
+
+          </div>
+          <div className="mx-auto  mt-8 md:mt-20 ">
          
-<div className="flex items-center gap-4 -ml-10  ">
+<div className="flex items-center gap-4   ">
   <div className="social-button motion-preset-pop ">
     <a href="https://github.com/krishna7054">
     <button className="relative w-12 h-12 rounded-full group cursor-pointer">
@@ -143,7 +142,7 @@ export function SplineSceneBasic() {
         </div>
 
         {/* Right content */}
-        <div className="flex-1 relative">
+        <div className="flex-1 relative hidden sm:block">
           <SplineScene 
             scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
             className="w-full h-full "

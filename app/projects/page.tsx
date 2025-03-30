@@ -7,7 +7,7 @@ import { CardHoverEffectDemo } from "@/components/ui/projectcards";
 
 export default function project(){
   return (
-    <div className="bg-black w-full h-full text-white">
+    <div className="bg-black w-full min-h-screen text-white">
       
         <MatrixText text="PROJECTs"/>
        <CardHoverEffectDemo/>

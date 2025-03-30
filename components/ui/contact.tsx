@@ -86,8 +86,8 @@ export default function ContactComponent() {
   }
 
   return (
-    <div className="container mx-auto py-12 px-4 md:px-6 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+    <div className="container mx-auto py-12 px-4 sm:px-6 md:px-6 lg:px-24">
+      <div className="grid grid-cols-1  gap-8  lg:grid-cols-2 ">
         <div className="motion-preset-blur-right  ">
           <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
           <p className="text-orange-300 mb-8 text-lg">

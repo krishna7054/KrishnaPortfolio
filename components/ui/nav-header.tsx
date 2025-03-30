@@ -13,8 +13,9 @@ function NavHeader() {
   });
 
   return (
+    <nav className="w-full flex justify-center">
     <ul
-      className="relative mx-auto flex w-fit rounded-full border-2 border-white    p-1"
+      className="relative flex items-center  rounded-full border-2 border-white bg-black bg-opacity-60  text-white shadow-lg backdrop-blur-md md:space-x-4 md:p-3 lg:p-1"
       onMouseLeave={() => setPosition((pv) => ({ ...pv, opacity: 0 }))}
     >
       <Tab setPosition={setPosition} href="">Home</Tab>
@@ -26,6 +27,7 @@ function NavHeader() {
 
       <Cursor position={position} />
     </ul>
+    </nav>
   );
 }
 
@@ -53,7 +55,7 @@ const Tab = ({
           left: ref.current.offsetLeft,
         });
       }}
-      className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
+      className="relative z-10 block cursor-pointer px-1.5 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
     >
      <Link href={href}>{children}</Link>
     </li>

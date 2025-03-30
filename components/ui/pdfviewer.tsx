@@ -22,11 +22,11 @@ const PdfViewer = () => {
   };
 
   return (
-    <div >
-        {/* Download Button */}
+    <div className="w-full flex flex-col items-center justify-center space-y-6" >
+        
         
 <button onClick={handleDownload}
-  className="motion-preset-bounce border ml-[80%] cursor-pointer flex justify-between bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"
+  className="motion-preset-bounce border cursor-pointer flex justify-between bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono text-xl "
 >
   Resume
   <svg
@@ -35,7 +35,7 @@ const PdfViewer = () => {
     viewBox="0 0 24 24"
     stroke-width="2"
     stroke="currentColor"
-    className="w-5 h-5 animate-bounce"
+    className="w-5 h-5 animate-bounce ml-2"
   >
     <path
       stroke-linecap="round"
@@ -44,22 +44,10 @@ const PdfViewer = () => {
     ></path>
   </svg>
 </button>
-
-      {/* <a
-        href={pdfUrl}
-        download="sample.pdf"
-        className="mt-4 px-4 py-2 ml-[90%]  bg-blue-600 text-white rounded hover:bg-blue-700 transition "
-      >
-        Download PDF
-      </a> */}
-    <div className="flex  items-center justify-center    motion-preset-slide-up">
-      
-     
-
-      {/* PDF Viewer */}
+    <div className="lg:w-full flex justify-center    motion-preset-slide-up">
       <iframe
         src={pdfUrl}
-        className="w-full max-w-4xl h-[900px] border border-gray-300 rounded-lg shadow-xl"
+        className="lg:w-1/2 h-[500px] md:h-[700px]  border border-gray-300 rounded-lg shadow-xl md:w-[500px]"
       ></iframe>
 
     </div>

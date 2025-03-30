@@ -4,12 +4,12 @@ import PdfViewer from "@/components/ui/pdfviewer";
 
 export default function project(){
   return (
-    <div className="bg-black w-full h-full text-white">
+    <div className="bg-black w-full min-h-screen text-white  items-center justify-between  px-4 sm:px-6 lg:px-24">
       
         <MatrixText text="Resume"/>
         <PdfViewer/>
         <AppleStyleDock/>
-        <footer className=" text-end p-6 text-gray-500">
+        <footer className=" text-center  text-gray-500  lg:text-end ">
         <span className="text-cyan-300">© 2025 Krishna Kumar. All rights reserved.</span> 
         </footer>
     </div>

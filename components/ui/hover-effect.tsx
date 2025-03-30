@@ -69,7 +69,7 @@ export const HoverEffect = ({
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-gray-400 hover:text-white border border-sky-500 animate-pulse p-2 rounded-xl transition-all flex items-center gap-2 mr-2"
+                className=" text-cyan-400 hover:text-blue-300 border border-sky-500 animate-pulse p-2 rounded-xl transition-all flex items-center gap-2 mr-2"
               >
                 <BiLinkExternal className="text-xl" />
                 View Live 
@@ -78,7 +78,7 @@ export const HoverEffect = ({
                 href={item.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white border border-white p-2 rounded-xl transition-all flex items-center gap-2"
+                className="text-white hover:text-red-300 border border-white p-2 rounded-xl transition-all flex items-center gap-2"
               >
                 <FaGithub className="text-2xl" />
                 View on GitHub
@@ -120,7 +120,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-emerald-300 text-2xl font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );
@@ -136,7 +136,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-4 text-zinc-400 tracking-wide leading-relaxed text-sm",
+        "mt-4 text-orange-300 tracking-wide leading-relaxed text-md",
         className
       )}
     >

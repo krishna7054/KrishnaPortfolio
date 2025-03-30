@@ -6,7 +6,7 @@ import { TextRotate } from "@/components/ui/text-rotate"
 
 function Preview() {
   return (
-    <div className=" text-[#EEEEEE] w-full h-full text-2xl sm:text-3xl md:text-5xl flex flex-row items-center justify-center font-overusedGrotesk  dark:text-muted  font-medium overflow-hidden p-12 sm:p-20 ">
+    <div className=" text-[#EEEEEE]  text-2xl sm:text-2xl md:text-5xl flex flex-row items-start justify-start font-overusedGrotesk  dark:text-muted  font-medium overflow-hidden   ">
       <LayoutGroup>
         <motion.p className="flex whitespace-pre" layout>
           <motion.span
@@ -24,7 +24,7 @@ function Preview() {
               "Full Stack Developer",
               "Software Developer"
             ]}
-            mainClassName="text-[#D84040] px-2 sm:px-2 md:px-3  overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
+            mainClassName="text-[#D84040] px-0.5 sm:px-0.5 md:px-0.5  overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}

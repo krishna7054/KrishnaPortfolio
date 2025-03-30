@@ -2,7 +2,7 @@ import NavHeader from "@/components/ui/nav-header";
 
 function HomeDemo() {
   return (
-    <header className=" justify-center items-center left-1/2 top-5 absolute z-20 max-w-full -translate-x-1/2">
+    <header className=" fixed top-5 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-screen-xl px-4 md:px-8 lg:px-12">
     <NavHeader />
     </header>
   );

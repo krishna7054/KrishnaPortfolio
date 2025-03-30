@@ -10,6 +10,4 @@ export default function Home() {
 }
 
 
-// import AnimatedText
-// import { DefaultDemo, CustomStyleDemo, HeadingDemo, SlowAnimationDemo } from "@/components/ui/typography"
 

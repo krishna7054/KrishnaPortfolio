@@ -5,7 +5,7 @@ import { TimelineDemo } from "@/components/ui/timeCom";
 
 export default function certificate(){
   return (
-    <div className=" w-full h-full bg-black text-white ">
+    <div className=" w-full min-h-screen bg-black text-white ">
         <MatrixText  text="CERTIFICATEs"/>
         <TimelineDemo/>
          <AppleStyleDock/>
