@@ -1,8 +1,9 @@
 import { AppleStyleDock } from "@/components/ui/botmbar";
 import { MatrixText } from "@/components/ui/matrix-text";
 import PdfViewer from "@/components/ui/pdfviewer";
+import React from 'react';
 
-export default function project(){
+function resume(){
   return (
     <div className="bg-black w-full min-h-screen text-white  items-center justify-between  px-4 sm:px-6 lg:px-24">
       
@@ -15,3 +16,4 @@ export default function project(){
     </div>
   )
 }
+export default React.memo(resume);

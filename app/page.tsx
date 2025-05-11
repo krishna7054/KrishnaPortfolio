@@ -1,5 +1,7 @@
 import { DemoBackgroundPaths } from "@/components/ui/background";
-export default function Home() {
+import React from 'react';
+
+function Home() {
   return (
     <div>
       
@@ -8,6 +10,7 @@ export default function Home() {
     </div>
   );
 }
+export default React.memo(Home);
 
 
 

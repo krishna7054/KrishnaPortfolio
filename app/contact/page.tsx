@@ -3,9 +3,10 @@
 import { AppleStyleDock } from "@/components/ui/botmbar";
 import ContactComponent from "@/components/ui/contact";
 import { MatrixText } from "@/components/ui/matrix-text";
+import React from 'react';
 
 
-export default function contact(){
+function contact(){
   return (
     <div className="bg-black min-h-screen  text-white ">
       
@@ -18,3 +19,5 @@ export default function contact(){
     </div>
   )
 }
+
+export default React.memo(contact);

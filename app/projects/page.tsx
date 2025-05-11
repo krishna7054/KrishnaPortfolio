@@ -3,9 +3,10 @@
 import { AppleStyleDock } from "@/components/ui/botmbar";
 import { MatrixText } from "@/components/ui/matrix-text";
 import { CardHoverEffectDemo } from "@/components/ui/projectcards";
+import React from 'react';
 
 
-export default function project(){
+function project(){
   return (
     <div className="bg-black w-full min-h-screen text-white">
       
@@ -18,3 +19,4 @@ export default function project(){
     </div>
   )
 }
+export default React.memo(project);

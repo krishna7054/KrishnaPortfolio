@@ -1,9 +1,10 @@
 import { AppleStyleDock } from "@/components/ui/botmbar";
 import { MatrixText } from "@/components/ui/matrix-text";
 import { TimelineDemo } from "@/components/ui/timeCom";
+import React from 'react';
 
 
-export default function certificate(){
+ function certificate(){
   return (
     <div className=" w-full min-h-screen bg-black text-white ">
         <MatrixText  text="CERTIFICATEs"/>
@@ -15,3 +16,5 @@ export default function certificate(){
     </div>
   )
 }
+
+export default React.memo(certificate);

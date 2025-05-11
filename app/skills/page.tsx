@@ -1,9 +1,10 @@
 import { AppleStyleDock } from "@/components/ui/botmbar";
 import { MatrixText } from "@/components/ui/matrix-text";
 import { IconCloudDemo } from "@/components/ui/skillglob";
+import React from 'react';
 
 
-export default function skill(){
+function skill(){
   return (
     <div className="bg-black min-h-screen flex flex-col  justify-between text-white px-4  lg:px-24">
         <MatrixText text="SKILLs"/>
@@ -15,3 +16,5 @@ export default function skill(){
     </div>
   )
 }
+
+export default React.memo(skill);
