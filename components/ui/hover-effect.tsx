@@ -57,7 +57,7 @@ export const HoverEffect = ({
             <img
               src={item.imglink}
               alt={item.title}
-              className="w-full h-48 object-cover rounded-lg motion-scale-in-[0.5] motion-translate-x-in-[-120%] motion-translate-y-in-[-60%] motion-opacity-in-[33%] motion-rotate-in-[-1080deg] motion-blur-in-[10px] motion-duration-[1.50s] motion-delay-[0.75s]/scale motion-duration-[0.75s]/opacity motion-duration-[2.40s]/rotate motion-duration-[0.30s]/blur motion-delay-[1.20s]/blur motion-ease-spring-bouncier"
+              className="w-full h-48 object-cover rounded-lg"
             />
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
