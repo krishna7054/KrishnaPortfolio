@@ -3,7 +3,7 @@
 import React from "react";
 
 const PdfViewer = () => {
-  const pdfUrl = "/Krishna_Kumar_Resume.pdf"; // Ensure the PDF is inside the public folder
+  const pdfUrl = "/Krishna_Resume.pdf"; // Ensure the PDF is inside the public folder
 
   const handleDownload = () => {
     fetch(pdfUrl)
