@@ -14,7 +14,7 @@ export const projects = [
       "This CRM application provides a streamlined platform to manage customer interactions, leads, contacts and sales pipelines.",
     link: "https://v0-crm-system-build.vercel.app/",
     github: "https://github.com/krishna7054/Customer-Relationship-Management-System",
-    imglink:"p6.jpeg",
+    imglink:"p6.png",
   },
   {
     title: "Blog Likho",
