@@ -30,7 +30,7 @@ function WelcomeExample() {
           delay: 0.5,
         }}
       >
-        {`😊 I’m passionate about Web Development, Machine Learning, and Freelancing, constantly exploring new technologies and building impactful projects. 🚀`}
+        {`😊 explores Freelancing, Web Development, and ML.`}
       </VerticalCutReveal>
       <VerticalCutReveal
         splitBy="characters"
