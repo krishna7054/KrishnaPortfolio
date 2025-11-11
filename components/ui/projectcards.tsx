@@ -8,6 +8,14 @@ export function CardHoverEffectDemo() {
   );
 }
 export const projects = [
+   {
+    title: "Customer-Relationship-Management-System",
+    description:
+      "This CRM application provides a streamlined platform to manage customer interactions, leads, contacts and sales pipelines.",
+    link: "https://v0-crm-system-build.vercel.app/",
+    github: "https://github.com/krishna7054/Customer-Relationship-Management-System",
+    imglink:"p6.jpeg",
+  },
   {
     title: "Blog Likho",
     description:
@@ -47,13 +55,5 @@ export const projects = [
     link: "https://incredible-tartufo-dc95f5.netlify.app/",
     github: "https://github.com/krishna7054/Personal-Bookshelf",
     imglink:"p5.jpeg",
-  },
-  {
-    title: "Task Management Dashboard",
-    description:
-      "A web application for managing tasks efficiently using a Kanban board interface. The application allows users to create, update, and delete tasks while offering features such as user authentication, drag-and-drop functionality, and responsive design for various devices.",
-    link: "https://task-ment.netlify.app/",
-    github: "https://github.com/krishna7054/Task-Mangement",
-    imglink:"p6.jpeg",
   },
 ];
