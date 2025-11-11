@@ -16,7 +16,7 @@ function WelcomeExample() {
           damping: 21,
         }}
       >
-        {`HI 👋, I'm a final-year B.Tech IT student at RGIPT, Jais, UP.`}
+        {`HI 👋, I'm Krishna Kumar, a B.Tech IT graduate (Class of 2025) from RGIPT, Jais (U.P.).`}
       </VerticalCutReveal>
       <VerticalCutReveal
         splitBy="characters"
@@ -30,7 +30,7 @@ function WelcomeExample() {
           delay: 0.5,
         }}
       >
-        {`😊 explores Freelancing, Web Development, and ML.`}
+        {`😊 I’m passionate about Web Development, Machine Learning, and Freelancing, constantly exploring new technologies and building impactful projects. 🚀`}
       </VerticalCutReveal>
       <VerticalCutReveal
         splitBy="characters"
