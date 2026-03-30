@@ -14,7 +14,7 @@ export const projects = [
       "A role-based AI-powered interview practice platform that simulates real technical interviews with structured feedback. Interview Copilot helps developers practice interviews in a focused and structured way.",
     link: "https://chat-bot-three-plum.vercel.app/",
     github: "https://github.com/krishna7054/chat-bot",
-    imglink:"p3.jpeg",
+    imglink:"p3.png",
   },
    {
     title: "Customer-Relationship-Management-System",
