@@ -8,6 +8,14 @@ export function CardHoverEffectDemo() {
   );
 }
 export const projects = [
+  {
+    title: "Interview Copilot",
+    description:
+      "A role-based AI-powered interview practice platform that simulates real technical interviews with structured feedback. Interview Copilot helps developers practice interviews in a focused and structured way.",
+    link: "https://chat-bot-three-plum.vercel.app/",
+    github: "https://github.com/krishna7054/chat-bot",
+    imglink:"p3.jpeg",
+  },
    {
     title: "Customer-Relationship-Management-System",
     description:
@@ -32,13 +40,21 @@ export const projects = [
     github: "https://github.com/krishna7054/Startup-Board",
     imglink:"p2.jpeg",
   },
-  {
-    title: "Skill-App",
+  // {
+  //   title: "Skill-App",
+  //   description:
+  //     "Skill App is a web application that allows users to register, log in, and manage their skills. It provides functionality for adding and removing skills and displays users and their respective skills.",
+  //   link: "https://prismatic-brigadeiros-14ae59.netlify.app/",
+  //   github: "https://github.com/krishna7054/Skill-App",
+  //   imglink:"p3.jpeg",
+  // },
+    {
+    title: "Portfolio Tracker Dashboard",
     description:
-      "Skill App is a web application that allows users to register, log in, and manage their skills. It provides functionality for adding and removing skills and displays users and their respective skills.",
-    link: "https://prismatic-brigadeiros-14ae59.netlify.app/",
-    github: "https://github.com/krishna7054/Skill-App",
-    imglink:"p3.jpeg",
+      "A real-time stock portfolio dashboard built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and React Table.Fetches live market data (CMP, P/E, Earnings, etc) from your Node.js backend and updates every 15 seconds.",
+    link: "https://stack-portfolio-pi.vercel.app/",
+    github: "https://github.com/krishna7054/Stock-Portfolio",
+    imglink:"p5.jpeg",
   },
   {
     title: "Movie Library App",
@@ -48,12 +64,12 @@ export const projects = [
     github: "https://github.com/krishna7054/Movie-Library",
     imglink:"p4.jpeg",
   },
-  {
-    title: "Personal Bookshelf",
-    description:
-      "Personal Bookshelf is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.",
-    link: "https://incredible-tartufo-dc95f5.netlify.app/",
-    github: "https://github.com/krishna7054/Personal-Bookshelf",
-    imglink:"p5.jpeg",
-  },
+  // {
+  //   title: "Personal Bookshelf",
+  //   description:
+  //     "Personal Bookshelf is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.",
+  //   link: "https://incredible-tartufo-dc95f5.netlify.app/",
+  //   github: "https://github.com/krishna7054/Personal-Bookshelf",
+  //   imglink:"p5.jpeg",
+  // },
 ];
